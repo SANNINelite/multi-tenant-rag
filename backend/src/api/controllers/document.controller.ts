@@ -3,6 +3,7 @@ import { AuthRequest } from "../../middleware/auth.middleware.js";
 import { prisma } from "../../lib/prisma.js";
 import { extractPdfText, generateChunks } from "../../services/document.service.js";
 import { createEmbedding } from "../../services/embedding.service.js";
+import fs from "fs";
 
 export const uploadDocument =
   async (
@@ -57,6 +58,7 @@ for (
     },
   });
 }
+  fs.unlinkSync(req.file.path);
     return res.status(201).json({
   success: true,
   message:

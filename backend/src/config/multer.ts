@@ -1,5 +1,13 @@
 import multer from "multer";
-//currently storing files on disk, can be changed to cloud storage like AWS S3 or Google Cloud Storage in the future
+import fs from "fs";
+
+if (!fs.existsSync("uploads")) {
+  fs.mkdirSync("uploads");
+}
+
+// currently storing files on disk,
+// can be migrated later to AWS S3 / Cloudinary
+
 const storage = multer.diskStorage({
 
   destination: (
@@ -8,7 +16,7 @@ const storage = multer.diskStorage({
     cb
   ) => {
 
-    cb(null, "src/uploads");
+    cb(null, "uploads/");
   },
 
   filename: (
