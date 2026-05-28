@@ -551,7 +551,7 @@ Run this exact flow to wow evaluators during your live demonstration:
 
 ---
 
-### 11.14 Viva Discussion Topics (Quick Reference)
+### 11.14 Discussion Topics (Quick Reference)
 
 #### 1. What is RAG (Retrieval-Augmented Generation)?
 RAG is an AI architecture that enhances large language models by retrieving matching factual chunks from an external private database (like PostgreSQL) based on the user's query, appending those facts directly to the system prompt to ground the LLM's answers in concrete company documentation.
