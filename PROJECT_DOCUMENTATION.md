@@ -9,6 +9,10 @@ Welcome to the official, technical system documentation for the **Multi-Tenant R
 
 The **Multi-Tenant RAG SaaS Platform** is a secure, cloud-deployed, enterprise-grade application enabling multiple organizations (tenants/workspaces) to upload proprietary document libraries (PDF format), ingest and extract text contents, generate semantic vector embeddings, store them in a secure relational database, and conduct natural language conversations with an AI assistant that answers questions based solely on the uploaded documents.
 
+### Live Platform & Code Repository
+* 🌐 **Live Deployed Application (Vercel):** [https://multi-tenant-rag-two.vercel.app/](https://multi-tenant-rag-two.vercel.app/)
+* 💻 **GitHub Code Repository:** [https://github.com/SANNINelite/multi-tenant-rag](https://github.com/SANNINelite/multi-tenant-rag)
+
 ### High-Level Architecture
 * **Frontend Application:** Deployed on **Vercel** (React + Vite + Axios + React Router)
 * **Backend Application:** Deployed on **Render** (Node.js + Express + TypeScript)

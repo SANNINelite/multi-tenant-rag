@@ -1,6 +1,10 @@
 # Secure Multi-Tenant AI RAG SaaS Platform
 
-An enterprise-ready, workspace-isolated Retrieval-Augmented Generation (RAG) SaaS platform designed for organizations to securely upload knowledge base PDFs, organize them into logical workspaces, and converse with documents without cross-tenant knowledge leaks. 
+An enterprise-ready, workspace-isolated Retrieval-Augmented Generation (RAG) SaaS platform designed for organizations to securely upload knowledge base PDFs, organize them into logical workspaces, and converse with documents without cross-tenant knowledge leaks.
+
+### Deployed Resources
+* 🌐 **Live Deployed Platform:** [https://multi-tenant-rag-two.vercel.app/](https://multi-tenant-rag-two.vercel.app/)
+* 💻 **GitHub Code Repository:** [https://github.com/SANNINelite/multi-tenant-rag](https://github.com/SANNINelite/multi-tenant-rag)
 
 ---
 
